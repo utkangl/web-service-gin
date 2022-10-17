@@ -11,7 +11,7 @@ func main() {
 	router := gin.Default()
 	router.GET("/albums", getAlbums)
 
-	router.Run("localhost/8000")
+	router.Run("127.0.0.1:8080")
 
 }
 
@@ -20,7 +20,7 @@ type album struct {
 	ID     string  `json:"id"` // why do we use `` ??
 	Title  string  `json:"title"`
 	Artist string  `json:"artist"`
-	Price  float64 `json:"prica"`
+	Price  float64 `json:"price"`
 }
 
 // albums slice to create album data
