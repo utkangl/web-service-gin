@@ -29,7 +29,7 @@ type album struct {
 var albums = []album{
 
 	{ID: "0", Title: "Ah Be Abi", Artist: "Mehmet Emre Arslan", Price: 59.99},
-	{ID: "1", Title: "Tavuklu Çoraplar", Artist: "Samet Kati", Price: 52.99},
+	{ID: "1", Title: "Nerede Kaldı Bu Yemek", Artist: "Samet Kati", Price: 52.99},
 	{ID: "2", Title: "Sanirim Deliriyoruz", Artist: "Mertcan Kirci", Price: 69.99},
 }
 
